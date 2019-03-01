@@ -1,7 +1,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/base.css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="http://teic.github.io/CETEIcean/css/CETEIcean.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style/CETEIcean.css" media="screen" charset="utf-8">
 
     <!-- Leaflet's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
@@ -51,12 +51,13 @@
             return span;
           },
           "place": function(elt) {
-              console.log("there is a place in the tei");
-              if (elt.hasAttribute("geo")) {
+              if (elt.hasAttribute("location")) {
+                console.log("there is a place in the tei");
                 var coordinates = elt.getAttribute("geo");
                 console.log(coordinates);
                 coordinateList.push(coordinates.split(" "));
               }
+              return "";
           }
         }});
 
