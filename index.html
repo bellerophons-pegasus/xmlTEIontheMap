@@ -51,6 +51,7 @@
             return span;
           },
           "place": function(elt) {
+              console.log("there is a place in the tei");
               if (elt.hasAttribute("geo")) {
                 var coordinates = elt.getAttribute("geo");
                 console.log(coordinates);
