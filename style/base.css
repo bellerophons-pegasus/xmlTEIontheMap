@@ -6,8 +6,11 @@
 #mapBox-wrapper {
   display: inline-block;
   max-width: 50%;
+  vertical-align: text-top;
 }
 
 #mapBox {
   height: 180px;
+  width: 80%;
+  margin-auto;
 }
