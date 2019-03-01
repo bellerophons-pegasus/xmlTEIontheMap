@@ -1,10 +1,12 @@
 #tei-wrapper{
   width: 45%;
   display: inline-block;
+  vertical-align: top;
 }
 
 #mapBox-wrapper {
   display: inline-block;
+  vertical-align: top;
   max-width: 50%;
   position: relative;
 }
@@ -12,7 +14,6 @@
 #mapBox {
   height: 180px;
   width: 80%;
-  margin-auto;
+  margin: auto;
   position: absolute;
-  top: 0;
 }
