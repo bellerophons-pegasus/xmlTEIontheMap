@@ -1,0 +1,10 @@
+#TEI{
+  width: 45%;
+  display: inline-block;
+}
+
+#mapBox {
+  display: inline-block;
+  max-width: 50%;
+  height: 180px;
+}

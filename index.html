@@ -10,7 +10,7 @@
     <script src="scripts-web/cetei/CETEI.js"></script>
     <script>
       var CETEIcean = new CETEI();
-      CETEIcean.getHTML5('source-web/Baedeker-Mittelmeer_1909.xml', function(data) {
+      CETEIcean.getHTML5('source-web/Baedeker-Mittelmeer_1909-small.xml', function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
