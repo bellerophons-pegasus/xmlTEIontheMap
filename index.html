@@ -3,12 +3,17 @@
     <link rel="stylesheet" href="style/base.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="http://teic.github.io/CETEIcean/css/CETEIcean.css" media="screen" charset="utf-8">
 
-    <!-- Leaflet's CSS and JS -->
+    <!-- Leaflet's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin=""/>
   </head>
   <body>
+    <!-- Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
+
     <div id="tei-wrapper">
       <h2>TEI encoded text in HTML</h2>
     <div id="TEI">
@@ -28,6 +33,7 @@
       // (new CETEI).getHTML5('testTEI.xml').then(function(data){
       //   document.getElementById("TEI").appendChild(data);
       // });
+      var coordTest = [37.9838, 23.7275];
     </script>
 
 
@@ -39,10 +45,6 @@
       </div>
     </div>
 
-
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-    crossorigin=""></script>
     <script>
     var mymap = L.map('mapBox').setView([34.5531, 18.0480], 5);
 
@@ -53,5 +55,8 @@
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
+
+  L.marker(coordTest).addTo(mymap);
+
   </script>
   </body>
