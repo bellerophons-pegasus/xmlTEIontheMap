@@ -22,6 +22,7 @@
     </div>
     <script src="scripts-web/cetei/CETEI.js"></script>
     <script>
+      var coordinateList = [];
       var CETEIcean = new CETEI();
       var images = [];
       CETEIcean.addBehaviors({"tei":
@@ -48,6 +49,12 @@
             span.appendChild(document.createElement("br"));
             span.appendChild(document.createElement("br"));
             return span;
+          },
+          "place": function(elt) {
+              if (elt.hasAttribute("geo")) {
+                var coordinates = elt.getAttribute("geo");
+                coordinateList.push(coordinates.split(" "));
+              }
           }
         }});
 
@@ -61,14 +68,8 @@
       // (new CETEI).getHTML5('testTEI.xml').then(function(data){
       //   document.getElementById("TEI").appendChild(data);
       // });
-      var coordTest = [37.9838, 23.7275];
+    //  var coordTest = [37.9838, 23.7275];
     </script>
-
-
-
-
-
-
 
 
     <div id="mapBox-wrapper">
@@ -90,7 +91,7 @@
 		id: 'mapbox.streets'
 	}).addTo(mymap);
 
-  L.marker(coordTest).addTo(mymap);
+  L.marker(coordinateList).addTo(mymap);
 
   </script>
   </body>
