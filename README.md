@@ -17,3 +17,9 @@ Idea:
 </place>
 ```
 4. Use the new file for display on a webpage. On left side: pretty formatted text. On right side: map with markers of all places encoded in the currently visible snippet.
+
+
+Useful resources
+* 
+* https://github.com/TEIC/CETEIcean
+* http://tei.oucs.ox.ac.uk/Talks/2015-02-warsaw/
