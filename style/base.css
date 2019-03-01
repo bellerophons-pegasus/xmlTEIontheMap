@@ -7,7 +7,7 @@
 #mapBox-wrapper {
   display: inline-block;
   vertical-align: top;
-  max-width: 50%;
+  width: 50%;
   position: relative;
 }
 
