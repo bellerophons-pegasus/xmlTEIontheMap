@@ -53,6 +53,7 @@
           "place": function(elt) {
               if (elt.hasAttribute("geo")) {
                 var coordinates = elt.getAttribute("geo");
+                console.log(coordinates);
                 coordinateList.push(coordinates.split(" "));
               }
           }
