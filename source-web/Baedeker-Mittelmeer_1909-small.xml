@@ -15460,7 +15460,8 @@
 <w lemma="nicht" type="PTKNEG" xml:id="MM_d1e50748">nicht</w>
 <seg type="ws"> </seg>
 <w lemma="fortgehen" type="VVINF" xml:id="MM_d1e50754">fortgehen</w>
-<pc type="final" xml:id="MM_d1e50758">.</pc></p>
+<pc type="final" xml:id="MM_d1e50758">.</pc></p></div></div>
+<milestone rend="hr" type="separator" unit="undetermined"/>
 </front>
 </text>
 </TEI>
