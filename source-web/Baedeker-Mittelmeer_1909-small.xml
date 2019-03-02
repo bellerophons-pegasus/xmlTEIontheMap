@@ -152,7 +152,13 @@
 <seg type="ws"> </seg>
 <w lemma="Reisehandbuch" type="NN" xml:id="MM_d1e279">REISEHANDBÜCHER</w>
 <pc type="final" xml:id="MM_d1e282">.</pc></p>
-<p><w lemma="Deutschland" type="NE" xml:id="MM_d1e286">Deutschland</w>
+<p>
+<place type="country">
+  <w lemma="Deutschland" type="NE" xml:id="MM_d1e286">Deutschland</w>
+  <location>
+  <geo>51.1657 10.4515</geo>
+ </location>
+</place>
 <pc type="final" xml:id="MM_d1e289">:</pc></p>
 <p><seg rend="italicised"><w lemma="Deutschland" type="NE" xml:id="MM_d1e294">Deutschland</w>
 <seg type="ws"> </seg>
