@@ -221,5 +221,5 @@ for elem in tree.iter(tag="{http://www.tei-c.org/ns/1.0}w"):
 ###################### Writing the new tree in an output file
 ######################            
 
-tree.write('MM_places_short2.xml',encoding = 'utf8')
+tree.write('MM_places_short.xml',encoding = 'utf8')
 
