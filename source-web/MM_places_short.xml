@@ -940,7 +940,7 @@
 <seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e2874">nach</w>
 <seg type="ws"> </seg>
-<seg rend="italicised"><w lemma="Kreta" type="NE" xml:id="MM_d1e2881">Kreta</w></seg>
+<seg rend="italicised"><place type="city"><w lemma="Kreta" type="NE" xml:id="MM_d1e2881">Kreta</w><location><geo>35.34194 25.14238</geo></location></place></seg>
 <pc type="final" xml:id="MM_d1e2884">.</pc><lb />
 <w lemma="mit" type="APPR" xml:id="MM_d1e2890">Mit</w>
 <seg type="ws"> </seg>
@@ -1170,7 +1170,7 @@
 <place type="country"><w lemma="Malta" type="NE" xml:id="MM_d1e3629">Malta</w>
 <location><geo>35.92255 14.40007</geo></location></place><pc type="comma" xml:id="MM_d1e3632">,</pc>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e3639">Tunis</w><location><geo>34.11632 9.60852</geo></location></place></seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e3639">Tunis</w><location><geo>36.80001 10.1827</geo></location></place></seg>
 <seg type="ws"> </seg>
 <w lemma="und" type="KON" xml:id="MM_d1e3645">und</w>
 <seg type="ws"> </seg>
@@ -4022,8 +4022,8 @@
 <place type="city"><w lemma="Philippeville" type="NE" xml:id="MM_d1e13108">Philippeville</w>
 <location><geo>36.87617 6.90921</geo></location></place><seg type="ws"> </seg>
 <w lemma="und" type="KON" xml:id="MM_d1e13114">und</w><lb />
-<w lemma="Bône" type="NE" xml:id="MM_d1e13119">Bône</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Bône" type="NE" xml:id="MM_d1e13119">Bône</w>
+<location><geo>36.9 7.76667</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="130" type="CARD" xml:id="MM_d1e13129">130</w>
 <seg type="ws"> </seg></cell></row></table>
@@ -4042,8 +4042,8 @@
 <location><geo>43.29337 5.3713</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e13181">nach</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e13188">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e13188">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="132" type="CARD" xml:id="MM_d1e13197">132</w>
 <seg type="ws"> </seg></cell></row>
@@ -4059,8 +4059,8 @@
 <seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e13237">nach</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e13243">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e13243">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="134" type="CARD" xml:id="MM_d1e13253">134</w>
 <seg type="ws"> </seg></cell></row>
@@ -4106,8 +4106,8 @@
 <location><geo>39.21454 9.11049</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e13392">nach</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e13398">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e13398">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="148" type="CARD" xml:id="MM_d1e13407">148</w>
 <seg type="ws"> </seg></cell></row>
@@ -4123,8 +4123,8 @@
 <location><geo>38.12207 13.36112</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e13448">nach</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e13454">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e13454">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="152" type="CARD" xml:id="MM_d1e13464">152</w>
 <seg type="ws"> </seg></cell></row>
@@ -4149,8 +4149,8 @@
 <place type="country"><w lemma="Malta" type="NE" xml:id="MM_d1e13531">Malta</w>
 <location><geo>35.92255 14.40007</geo></location></place><pc type="comma" xml:id="MM_d1e13535">,</pc>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e13541">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><pc type="comma" xml:id="MM_d1e13544">,</pc>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e13541">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><pc type="comma" xml:id="MM_d1e13544">,</pc>
 <seg type="ws"> </seg>
 <place type="city"><w lemma="Tripolis" type="NE" xml:id="MM_d1e13550">Tripolis</w>
 <location><geo>32.89534 13.18105</geo></location></place><pc type="internal" xml:id="MM_d1e13554">)</pc>
@@ -4180,8 +4180,8 @@
 <place type="city"><w lemma="Tlemcen" type="NE" xml:id="MM_d1e13638">Tlemcen</w>
 <location><geo>34.87833 -1.315</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e13644">(</pc>
-<w lemma="Lalla-Marnia" type="NE" xml:id="MM_d1e13647">Lalla-Marnia</w>
-<pc type="internal" xml:id="MM_d1e13650">)</pc>
+<place type="city"><w lemma="Lalla-Marnia" type="NE" xml:id="MM_d1e13647">Lalla-Marnia</w>
+<location><geo>34.84721 -1.73122</geo></location></place><pc type="internal" xml:id="MM_d1e13650">)</pc>
 <seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="192" type="CARD" xml:id="MM_d1e13660">192</w>
@@ -4201,8 +4201,8 @@
 <location><geo>34.87833 -1.315</geo></location></place><seg type="ws"> </seg>
 <w lemma="über" type="APPR" xml:id="MM_d1e13712">über</w>
 <seg type="ws"> </seg>
-<w lemma="Lalla-Marnia" type="NE" xml:id="MM_d1e13719">Lalla-Marnia</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Lalla-Marnia" type="NE" xml:id="MM_d1e13719">Lalla-Marnia</w>
+<location><geo>34.84721 -1.73122</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e13725">nach</w>
 <seg type="ws"> </seg>
 <w lemma="Nemours" type="NE" xml:id="MM_d1e13731">Nemours</w>
@@ -4509,8 +4509,8 @@
 <seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e14735">nach</w>
 <seg type="ws"> </seg>
-<w lemma="Bône" type="NE" xml:id="MM_d1e14741">Bône</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Bône" type="NE" xml:id="MM_d1e14741">Bône</w>
+<location><geo>36.9 7.76667</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="320" type="CARD" xml:id="MM_d1e14751">320</w>
 <seg type="ws"> </seg></cell></row>
@@ -4522,8 +4522,8 @@
 <location><geo>36.365 6.61472</geo></location></place><seg type="ws"> </seg>
 <w lemma="oder" type="KON" xml:id="MM_d1e14779">oder</w>
 <seg type="ws"> </seg>
-<w lemma="Bône" type="NE" xml:id="MM_d1e14786">Bône</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Bône" type="NE" xml:id="MM_d1e14786">Bône</w>
+<location><geo>36.9 7.76667</geo></location></place><seg type="ws"> </seg>
 <w lemma="über" type="APPR" xml:id="MM_d1e14792">über</w>
 <seg type="ws"> </seg>
 <w lemma="Duvivier" type="NE" xml:id="MM_d1e14798">Duvivier</w>
@@ -4536,8 +4536,8 @@
 <place type="city"><w lemma="Tebessa" type="NE" xml:id="MM_d1e14822">Tebessa</w>
 <location><geo>35.40567 8.12173</geo></location></place><pc type="comma" xml:id="MM_d1e14826">,</pc>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e14832">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><pc type="internal" xml:id="MM_d1e14835">)</pc>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e14832">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><pc type="internal" xml:id="MM_d1e14835">)</pc>
 <seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="326" type="CARD" xml:id="MM_d1e14844">326</w>
@@ -4566,22 +4566,22 @@
 <place type="city"><w lemma="Constantine" type="NE" xml:id="MM_d1e14926">Constantine</w>
 <location><geo>36.365 6.61472</geo></location></place><pc type="comma" xml:id="MM_d1e14929">,</pc>
 <seg type="ws"> </seg>
-<w lemma="Bône" type="NE" xml:id="MM_d1e14936">Bône</w>
-<pc type="internal" xml:id="MM_d1e14939">)</pc>
+<place type="city"><w lemma="Bône" type="NE" xml:id="MM_d1e14936">Bône</w>
+<location><geo>36.9 7.76667</geo></location></place><pc type="internal" xml:id="MM_d1e14939">)</pc>
 <seg type="ws"> </seg>
 <place type="city"><w lemma="Souk-Ahras" type="NE" xml:id="MM_d1e14945">Souk-Ahras</w>
 <location><geo>36.28294 7.9586</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e14951">nach</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e14958">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e14958">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="339" type="CARD" xml:id="MM_d1e14967">339</w>
 <seg type="ws"> </seg></cell></row>
 <row><cell><w lemma="55." type="ADV" xml:id="MM_d1e14975">55.</w>
 <seg type="ws"> </seg></cell>
-<cell><place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e14982">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<cell><place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e14982">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="343" type="CARD" xml:id="MM_d1e14991">343</w>
 <seg type="ws"> </seg></cell></row>
@@ -4603,8 +4603,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="von" type="APPR" xml:id="MM_d1e15056">Von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e15062">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e15062">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e15068">nach</w>
 <seg type="ws"> </seg>
 <place type="city"><w lemma="Biserta" type="NE" xml:id="MM_d1e15075">Biserta</w>
@@ -4616,8 +4616,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="von" type="APPR" xml:id="MM_d1e15099">Von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e15105">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e15105">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e15111">nach</w>
 <seg type="ws"> </seg>
 <w lemma="Dougga" type="NE" xml:id="MM_d1e15118">Dougga</w>
@@ -4635,8 +4635,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="von" type="APPR" xml:id="MM_d1e15161">Von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e15167">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e15167">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e15173">nach</w>
 <seg type="ws"> </seg>
 <w lemma="Le" type="NE" xml:id="MM_d1e15180">Le</w>
@@ -4654,8 +4654,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="von" type="APPR" xml:id="MM_d1e15223">Von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e15229">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e15229">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e15235">nach</w>
 <seg type="ws"> </seg>
 <place type="city"><w lemma="Sousse" type="NE" xml:id="MM_d1e15242">Sousse</w>
@@ -4759,8 +4759,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="von" type="APPR" xml:id="MM_d1e15573">Von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e15579">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e15579">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e15585">nach</w>
 <seg type="ws"> </seg>
 <place type="country"><w lemma="Malta" type="NE" xml:id="MM_d1e15592">Malta</w>
@@ -4776,8 +4776,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="von" type="APPR" xml:id="MM_d1e15630">Von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e15636">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e15636">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <w lemma="über" type="APPR" xml:id="MM_d1e15642">über</w>
 <seg type="ws"> </seg>
 <place type="city"><w lemma="Sfax" type="NE" xml:id="MM_d1e15649">Sfax</w>
@@ -4827,8 +4827,8 @@
 <seg type="ws"> </seg>
 <w lemma="und" type="KON" xml:id="MM_d1e15797">und</w>
 <seg type="ws"> </seg>
-<w lemma="Kreta" type="NE" xml:id="MM_d1e15803">Kreta</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Kreta" type="NE" xml:id="MM_d1e15803">Kreta</w>
+<location><geo>35.34194 25.14238</geo></location></place><seg type="ws"> </seg>
 <w lemma="nach" type="APPR" xml:id="MM_d1e15810">nach</w>
 <seg type="ws"> </seg>
 <place type="city"><w lemma="Konstantinopel" type="NE" xml:id="MM_d1e15816">Konstantinopel</w>
@@ -4855,8 +4855,8 @@
 <w lemma="und" type="KON" xml:id="MM_d1e15885">und</w><lb />
 <w lemma="Port" type="NE" xml:id="MM_d1e15890">Port</w>
 <seg type="ws"> </seg>
-<w lemma="Saïd" type="NE" xml:id="MM_d1e15897">Saïd</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Saïd" type="NE" xml:id="MM_d1e15897">Saïd</w>
+<location><geo>31.26004 32.28612</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="437" type="CARD" xml:id="MM_d1e15906">437</w>
 <seg type="ws"> </seg></cell></row>
@@ -4881,8 +4881,8 @@
 <seg type="ws"> </seg>
 <w lemma="Port" type="NE" xml:id="MM_d1e15977">Port</w>
 <seg type="ws"> </seg>
-<w lemma="Saïd" type="NE" xml:id="MM_d1e15983">Saïd</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Saïd" type="NE" xml:id="MM_d1e15983">Saïd</w>
+<location><geo>31.26004 32.28612</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="438" type="CARD" xml:id="MM_d1e15992">438</w>
 <seg type="ws"> </seg></cell></row>
@@ -4897,8 +4897,8 @@
 <seg type="ws"> </seg></cell>
 <cell><w lemma="Port" type="NE" xml:id="MM_d1e16032">Port</w>
 <seg type="ws"> </seg>
-<w lemma="Saïd" type="NE" xml:id="MM_d1e16038">Saïd</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Saïd" type="NE" xml:id="MM_d1e16038">Saïd</w>
+<location><geo>31.26004 32.28612</geo></location></place><seg type="ws"> </seg>
 <space dim="horizontal" /></cell>
 <cell><w lemma="458" type="CARD" xml:id="MM_d1e16047">458</w>
 <seg type="ws"> </seg></cell></row>
@@ -4922,8 +4922,8 @@
 <seg type="ws"> </seg>
 <w lemma="Port" type="NE" xml:id="MM_d1e16115">Port</w>
 <seg type="ws"> </seg>
-<w lemma="Saïd" type="NE" xml:id="MM_d1e16121">Saïd</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Saïd" type="NE" xml:id="MM_d1e16121">Saïd</w>
+<location><geo>31.26004 32.28612</geo></location></place><seg type="ws"> </seg>
 <w lemma="über" type="APPR" xml:id="MM_d1e16127">über</w>
 <seg type="ws"> </seg>
 <w lemma="Jaffa" type="NE" xml:id="MM_d1e16134">Jaffa</w>
@@ -5327,8 +5327,8 @@
 <seg type="ws"> </seg>
 <w lemma="Las" type="NE" xml:id="MM_d1e17444">Las</w>
 <seg type="ws"> </seg>
-<w lemma="Palmas" type="NE" xml:id="MM_d1e17450">Palmas</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Palmas" type="NE" xml:id="MM_d1e17450">Palmas</w>
+<location><geo>28.13026 -15.43973</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e17456">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e17459">1</w>
 <pc type="internal" xml:id="MM_d1e17463">:</pc>
@@ -5648,8 +5648,8 @@
 <seg type="ws"> </seg>
 <w lemma="von" type="APPR" xml:id="MM_d1e18473">von</w>
 <seg type="ws"> </seg>
-<w lemma="Bône" type="NE" xml:id="MM_d1e18480">Bône</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Bône" type="NE" xml:id="MM_d1e18480">Bône</w>
+<location><geo>36.9 7.76667</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e18486">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e18489">1</w>
 <pc type="internal" xml:id="MM_d1e18492">:</pc>
@@ -5693,8 +5693,8 @@
 <seg type="ws"> </seg>
 <w lemma="von" type="APPR" xml:id="MM_d1e18618">von</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e18625">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e18625">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e18631">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e18634">1</w>
 <pc type="internal" xml:id="MM_d1e18637">:</pc>
@@ -6071,8 +6071,8 @@
 <seg type="ws"> </seg>
 <w lemma="8." type="ADV" xml:id="MM_d1e19834">8.</w>
 <seg type="ws"> </seg>
-<w lemma="Bône" type="NE" xml:id="MM_d1e19841">Bône</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Bône" type="NE" xml:id="MM_d1e19841">Bône</w>
+<location><geo>36.9 7.76667</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e19847">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e19850">1</w>
 <pc type="internal" xml:id="MM_d1e19853">:</pc>
@@ -6471,8 +6471,8 @@
 <w lemma="31." type="ADV" xml:id="MM_d1e21123">31.</w>
 <seg type="ws"> </seg>
 <w lemma="Las" type="NE" xml:id="MM_d1e21130">Las</w><lb />
-<w lemma="Palmas" type="NE" xml:id="MM_d1e21135">Palmas</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Palmas" type="NE" xml:id="MM_d1e21135">Palmas</w>
+<location><geo>28.13026 -15.43973</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e21141">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e21145">1</w>
 <pc type="internal" xml:id="MM_d1e21148">:</pc>
@@ -6511,8 +6511,8 @@
 <seg type="ws"> </seg>
 <w lemma="Port" type="NE" xml:id="MM_d1e21258">Port</w>
 <seg type="ws"> </seg>
-<w lemma="Saïd" type="NE" xml:id="MM_d1e21264">Saïd</w>
-<pc type="comma" xml:id="MM_d1e21267">,</pc>
+<place type="city"><w lemma="Saïd" type="NE" xml:id="MM_d1e21264">Saïd</w>
+<location><geo>31.26004 32.28612</geo></location></place><pc type="comma" xml:id="MM_d1e21267">,</pc>
 <seg type="ws"> </seg>
 <w lemma="Hafen" type="NN" xml:id="MM_d1e21273">Hafen</w>
 <seg type="ws"> </seg>
@@ -6553,8 +6553,8 @@
 <seg type="ws"> </seg>
 <w lemma="Las" type="NE" xml:id="MM_d1e21393">Las</w>
 <seg type="ws"> </seg>
-<w lemma="Palmas" type="NE" xml:id="MM_d1e21399">Palmas</w>
-<seg type="ws"> </seg>
+<place type="city"><w lemma="Palmas" type="NE" xml:id="MM_d1e21399">Palmas</w>
+<location><geo>28.13026 -15.43973</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e21405">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e21409">1</w>
 <pc type="internal" xml:id="MM_d1e21412">:</pc>
@@ -6774,8 +6774,8 @@
 <seg type="ws"> </seg>
 <w lemma="47." type="ADV" xml:id="MM_d1e22108">47.</w>
 <seg type="ws"> </seg>
-<place type="country"><w lemma="Tunis" type="NE" xml:id="MM_d1e22114">Tunis</w>
-<location><geo>34.11632 9.60852</geo></location></place><seg type="ws"> </seg>
+<place type="city"><w lemma="Tunis" type="NE" xml:id="MM_d1e22114">Tunis</w>
+<location><geo>36.80001 10.1827</geo></location></place><seg type="ws"> </seg>
 <pc type="internal" xml:id="MM_d1e22120">(</pc>
 <w lemma="1" type="CARD" xml:id="MM_d1e22124">1</w>
 <pc type="internal" xml:id="MM_d1e22127">:</pc>
