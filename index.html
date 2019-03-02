@@ -94,13 +94,13 @@
       iconSize: [22, 38]
       });
   // add markers from coordinateList, when document ready
-  document.addEventListener("DOMContentLoaded", function(event) {
+//  document.addEventListener("DOMContentLoaded", function(event) {
     var arrayLength = coordinateList.length;
         for (var i = 0; i < arrayLength; i++) {
             console.log(coordinateList[i]);
             var marker = L.marker(coordinateList[i], {icon: markerIcon}).on('click', onClick);
             marker.addTo(mymap);
-        }
+//        }
 
     function onClick(placeId) {
       // Scroll to a certain element
