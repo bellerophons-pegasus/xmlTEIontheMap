@@ -169,33 +169,22 @@
         iconSize: [21, 30]
         });
 
-    // add markers from coordinateList, when document ready
-    //document.addEventListener("DOMContentLoaded", function(event) {
+    // add markers from coordinateList, when document ready (by timeout)
+//    document.addEventListener("DOMContentLoaded", function(event) {
     setTimeout(function(){
 
       var arrayLength = coordinateList.length;
       console.log(arrayLength);
-          for (var i = 0; i < arrayLength; i++) {
-              console.log(coordinateList[i]);
-              var marker = L.marker(coordinateList[i], {icon: markerIcon}).on('click', onClick);
-              marker.addTo(mymap);
-          }
+      for (var i = 0; i < arrayLength; i++) {
+          console.log(coordinateList[i]);
+          var marker = L.marker(coordinateList[i], {icon: markerIcon});
+          marker.addTo(mymap);
+          marker.bindPopup("<b>Coordinates:</b><br>"+coordinateList[i]);
 
-      function onClick(placeId) {
-        // Scroll to a certain element
-        //document.querySelector('.hello').scrollIntoView({
-        //behavior: 'smooth'
-        //});
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: 'smooth'
-        });
-        alert(placeId.latlng);
+      };
 
-      }
     }, 10000);
-  //  }, false);
+//    }, false);
 
   </script>
   </body>
