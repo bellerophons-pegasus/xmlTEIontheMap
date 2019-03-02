@@ -87,7 +87,7 @@ def wrap_elem_country(parent,elem,lat,lng):
 ###################### Parsing the xml-file
 ######################
 
-tree = ElementTree.parse("test_short.xml")
+tree = ElementTree.parse("data_introduction.xml")
 root = tree.getroot()
 
 ElementTree.register_namespace('','http://www.tei-c.org/ns/1.0')
