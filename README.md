@@ -2,6 +2,8 @@
 This is a hack created for the [ACDH virtual Open Data hackathon series 2019](https://github.com/acdh-oeaw/ACDHhackathonODD). It is a hacky, quick, and dirty proof of concept.
 It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe](https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Mittelmeer_1909.xml), due to time and performance constraints.
 
+You can view the result on: https://bellerophons-pegasus.github.io/xmlTEIontheMap/
+
 ## The idea
 1. Take an annotated TEI encoded XML file where potential places are already marked as named entities in this way:
 ```xml
@@ -31,7 +33,7 @@ It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digit
 
 ### Ideas for more
 * Allow correction of coordinates in xml via map display
-* Find an automated way to convert an XSLT to a css and behavior of CETEIcean 
+* Find an automated way to convert an XSLT to a css and behavior of CETEIcean
 
 ## Things used
 * Python dependencies:
