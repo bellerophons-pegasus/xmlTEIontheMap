@@ -30,7 +30,8 @@ It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digit
 * Scale up to large documents
 
 ### Ideas for more
-* Allow correction of coordinates via map display
+* Allow correction of coordinates in xml via map display
+* Find an automated way to convert an XSLT to a css and behavior of CETEIcean 
 
 ## Things used
 * Python dependencies:
