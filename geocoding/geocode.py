@@ -178,8 +178,8 @@ for elem in tree.iter(tag="{http://www.tei-c.org/ns/1.0}w"):
                                         
                     parent = parent_map[elem]
                     
-                    lat = geocode_result.features[0].geometry.y #the country's latitude and longitude
-                    lng = geocode_result.features[0].geometry.x
+                    lat = round(geocode_result.features[0].geometry.y,5) #the country's latitude and longitude
+                    lng = round(geocode_result.features[0].geometry.x,5)
                     
                     if lng < -35.5 or lat > 47.0 or lat < 26.9 or lng >61.5: #for now only the mediterranean area
                         continue
@@ -199,8 +199,8 @@ for elem in tree.iter(tag="{http://www.tei-c.org/ns/1.0}w"):
 
                     parent = parent_map[elem]
                     
-                    lat = geocode_result.features[0].geometry.y #the city's latitude and longitude
-                    lng = geocode_result.features[0].geometry.x
+                    lat = round(geocode_result.features[0].geometry.y,5) #the city's latitude and longitude
+                    lng = round(geocode_result.features[0].geometry.x,5)
                     
                     if lng < -35.5 or lat > 47.0 or lat < 26.9 or lng >61.5: #for now only the mediterranean area
                         continue
