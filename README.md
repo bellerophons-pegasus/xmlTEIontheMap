@@ -23,3 +23,4 @@ Useful resources
 * 
 * https://github.com/TEIC/CETEIcean
 * http://tei.oucs.ox.ac.uk/Talks/2015-02-warsaw/
+* Pagination: https://github.com/raffazizzi/ceteicean-pagination and https://gist.github.com/raffazizzi/21ae2bffb387f71feb1efe9feeccba1f
