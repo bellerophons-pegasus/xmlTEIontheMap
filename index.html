@@ -95,7 +95,9 @@
       iconSize: [22, 38]
       });
   // add markers from coordinateList, when document ready
-  document.addEventListener("DOMContentLoaded", function(event) {
+  //document.addEventListener("DOMContentLoaded", function(event) {
+  setTimeout(function(){
+
     var arrayLength = coordinateList.length;
     console.log(arrayLength);
         for (var i = 0; i < arrayLength; i++) {
@@ -117,7 +119,8 @@
       alert(placeId.latlng);
 
     }
-  }, false);
+  }, 10000);
+//  }, false);
 
   </script>
   </body>
