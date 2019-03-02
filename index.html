@@ -83,8 +83,7 @@
       // add behaviour to extract coordinates, store them in array, and hide them from display
       CETEIcean.addBehaviors(
       {"tei":
-        {
-          "geo": function(elt) {
+        {"geo": function(elt) {
             if (elt.innerHTML) {
               var empty = document.createElement("empty-span");
               empty.innerHTML = "";
@@ -177,10 +176,12 @@
       console.log(arrayLength);
       for (var i = 0; i < arrayLength; i++) {
           console.log(coordinateList[i]);
-          var marker = L.marker(coordinateList[i], {icon: markerIcon});
-          marker.addTo(mymap);
-          marker.bindPopup("<b>Coordinates:</b><br>"+coordinateList[i]);
-
+          console.log(i);
+          if (coordinateList[i].length == 2){
+            var marker = L.marker(coordinateList[i], {icon: markerIcon});
+            marker.addTo(mymap);
+            marker.bindPopup("<b>Coordinates:</b><br>"+coordinateList[i]);
+          };
       };
 
     }, 10000);
