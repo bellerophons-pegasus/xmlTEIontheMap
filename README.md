@@ -1,5 +1,6 @@
 # xmlTEIontheMap
-This is a hack created for the [ACDH virtual Open Data hackathon series 2019](https://github.com/acdh-oeaw/ACDHhackathonODD). It is a hacky quick and dirty proof of concept.
+This is a hack created for the [ACDH virtual Open Data hackathon series 2019](https://github.com/acdh-oeaw/ACDHhackathonODD). It is a hacky, quick, and dirty proof of concept.
+It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe](https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Mittelmeer_1909.xml), due to time and performance constraints.
 
 ## The idea
 1. Take an annotated TEI encoded XML file where potential places are already marked as named entities in this way:
@@ -25,7 +26,8 @@ This is a hack created for the [ACDH virtual Open Data hackathon series 2019](ht
 * See initail comments in geocoding/geocode.py
 * Clean up pagination display (not properly hidden elements)
 * Add clustering of markers on map
-* Link markers to their respective mention in the text and highlight it there 
+* Link markers to their respective mention in the text and highlight it there
+* Scale up to large documents
 
 ### Ideas for more
 * Allow correction of coordinates via map display
