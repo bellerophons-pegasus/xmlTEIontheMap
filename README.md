@@ -1,6 +1,6 @@
 # xmlTEIontheMap
 This is a hack created for the [ACDH virtual Open Data hackathon series 2019](https://github.com/acdh-oeaw/ACDHhackathonODD). It is a hacky, quick, and dirty proof of concept.
-It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe](https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Mittelmeer_1909.xml), due to time and performance constraints.
+It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digitale Ausgabe](https://id.acdh.oeaw.ac.at/traveldigital/Corpus/Baedeker-Mittelmeer_1909.xml), due to time and performance constraints. Note that adding coordinates was limited to the mediterranean region only for this example.
 
 You can view the result on: https://bellerophons-pegasus.github.io/xmlTEIontheMap/
 
