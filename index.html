@@ -97,9 +97,9 @@
   // add markers from coordinateList, when document ready
   document.addEventListener("DOMContentLoaded", function(event) {
     var arrayLength = coordinateList.length;
-        for (var i = 0; i < arrayLength; i++) {
-          console.log("in for");
+    console.log(arrayLength);
 
+        for (var i = 0; i < arrayLength; i++) {
             console.log(coordinateList[i]);
             var marker = L.marker(coordinateList[i], {icon: markerIcon}).on('click', onClick);
             marker.addTo(mymap);
