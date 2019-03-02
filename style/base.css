@@ -2,6 +2,11 @@
   width: 45%;
   display: inline-block;
   vertical-align: top;
+  padding-right: 1em;
+}
+
+tei-TEI {
+  margin-top: 3.5em;
 }
 
 #mapBox-wrapper {
@@ -10,10 +15,50 @@
   width: 50%;
   position: fixed;
   top: auto;
+  margin-left: 1em;
 }
 
 #mapBox {
   height: 600px;
-  width: 96%;
-  margin: auto;
+  width: 100%;
+}
+
+tei-figure > tei-head {
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+
+}
+
+ tei-pb {
+   display: block;
+   width: 100%;
+   text-align: right;
+   color: gray;
+   margin: 2em 0 2em 0;
+   font-size: 11pt;
+ }
+ tei-pb:before {
+   content: "[page:\a0" attr(n) "]";
+ }
+ .hid_page {
+   display: none;
+ }
+ ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ li {
+   margin-right: 20px;
+   height: 50px;
+   line-height: 50px;
+   display: inline-block;
+ }
+
+#prev, #next {
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 0.3em 0.7em;
 }

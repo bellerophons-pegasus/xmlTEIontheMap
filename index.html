@@ -8,33 +8,6 @@
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin=""/>
 
-   <style>
-    tei-pb {
-      display: block;
-      width: 100%;
-      text-align: right;
-      color: gray;
-      margin: 2em 0 2em 0;
-      font-size: 11pt;
-    }
-    tei-pb:before {
-      content: "[page:\a0" attr(n) "]";
-    }
-    .hid_page {
-      display: none;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    li {
-      margin-right: 20px;
-      height: 50px;
-      line-height: 50px;
-      display: inline-block;
-    }
-  </style>
   </head>
   <body>
     <!-- Leaflet's CSS -->
@@ -42,24 +15,26 @@
     integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
     crossorigin=""></script>
 
+    <!-- Wrapper for TEI content-->
     <div id="tei-wrapper">
       <h2>TEI encoded text in HTML</h2>
       <!-- Pagination controls. They start disabled. -->
-    <div id="controls" style="float:right">
-      <button id="prev" disabled>&lt;</button>
-      <button id="next" disabled>&gt;</button>
-</div>
-    <div id="TEI">
-      Please wait until the content is loaded.<br>
-      If you use Internet Explorer or some other older browser this might not work. We suggest you use a newer version of Chrome or Firefox.
+      <div id="controls" style="float:right">
+        <button id="prev" disabled>&lt;</button>
+        <button id="next" disabled>&gt;</button>
+      </div>
+      <div id="TEI">
+        Please wait until the content is loaded.<br>
+        If you use Internet Explorer or some other older browser this might not work. We suggest you use a newer version of Chrome or Firefox.
+      </div>
     </div>
-    </div>
+    <!-- Run CETEIcean -->
     <script src="scripts-web/cetei/CETEI.js"></script>
     <script>
       var coordinateList = [];
       var CETEIcean = new CETEI();
 
-      // CODE TO HIDE A PAGE
+      // CODE TO HIDE A PAGE (https://github.com/raffazizzi/ceteicean-pagination/blob/master/index.html)
       function showPage(page) {
         // Hide all text that does not belong to the page indicated
         var n
@@ -105,20 +80,23 @@
         }
       };
 
+      // add behaviour to extract coordinates, store them in array, and hide them from display
       CETEIcean.addBehaviors(
       {"tei":
         {
           "geo": function(elt) {
-            var empty = document.createElement("empty-span");
-            empty.innerHTML = "";
-            var coordinates = elt.innerHTML;
-            coordinateList.push(coordinates.split(" "));
-            return empty;
+            if (elt.innerHTML) {
+              var empty = document.createElement("empty-span");
+              empty.innerHTML = "";
+              var coordinates = elt.innerHTML;
+              coordinateList.push(coordinates.split(" "));
+              return empty;
+            };
           }
         }});
-          // CODE TO RUN CETEICEAN
-      //    CETEIcean.getHTML5('source-web/Baedeker-Mittelmeer_1909-small.xml', function(data) {
-          CETEIcean.getHTML5('source-web/MM_places_short2.xml', function(data) {  
+          // CODE TO RUN CETEICEAN, source file is hard coded
+      //   CETEIcean.getHTML5('source-web/Baedeker-Mittelmeer_1909-small.xml', function(data) {
+          CETEIcean.getHTML5('source-web/MM_places_short2.xml', function(data) {
             document.getElementById("TEI").innerHTML = ""
             document.getElementById("TEI").appendChild(data)
             CETEIcean.addStyle(document, data)
@@ -164,26 +142,18 @@
               })
             }
           });
-
-      // CETEIcean.getHTML5('source-web/Baedeker-Mittelmeer_1909-small.xml', function(data) {
-      //   document.getElementById("TEI").innerHTML = "";
-      //   document.getElementById("TEI").appendChild(data);
-      //   CETEIcean.addStyle(document, data);
-      // });
-
     </script>
 
-
+    <!-- Wrapper for Map -->
     <div id="mapBox-wrapper">
       <h2> Map </h2>
       <p>(Wait a while for markers to appear on map)</p>
-      <div id="mapBox">
-      </div>
+      <div id="mapBox"></div>
     </div>
 
     <script>
-    // add base map with view centered on mediterranean sea
-    var mymap = L.map('mapBox').setView([34.5531, 18.0480], 4);
+    // add base map with view centered on mediterranean sea via Leaflet
+    var mymap = L.map('mapBox').setView([38.5531, 18.0480], 4);
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -191,40 +161,41 @@
 			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 		id: 'mapbox.streets'
-	}).addTo(mymap);
+	  }).addTo(mymap);
 
-  // create custom icon
-  var markerIcon = L.icon({
-      iconUrl: 'style/pin.png',
-      iconSize: [22, 38]
-      });
-  // add markers from coordinateList, when document ready
-  //document.addEventListener("DOMContentLoaded", function(event) {
-  setTimeout(function(){
+    // create custom icon
+    var markerIcon = L.icon({
+        iconUrl: 'style/pin.png',
+        iconSize: [21, 30]
+        });
 
-    var arrayLength = coordinateList.length;
-    console.log(arrayLength);
-        for (var i = 0; i < arrayLength; i++) {
-            console.log(coordinateList[i]);
-            var marker = L.marker(coordinateList[i], {icon: markerIcon}).on('click', onClick);
-            marker.addTo(mymap);
-        }
+    // add markers from coordinateList, when document ready
+    //document.addEventListener("DOMContentLoaded", function(event) {
+    setTimeout(function(){
 
-    function onClick(placeId) {
-      // Scroll to a certain element
-      //document.querySelector('.hello').scrollIntoView({
-      //behavior: 'smooth'
-      //});
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-      });
-      alert(placeId.latlng);
+      var arrayLength = coordinateList.length;
+      console.log(arrayLength);
+          for (var i = 0; i < arrayLength; i++) {
+              console.log(coordinateList[i]);
+              var marker = L.marker(coordinateList[i], {icon: markerIcon}).on('click', onClick);
+              marker.addTo(mymap);
+          }
 
-    }
-  }, 10000);
-//  }, false);
+      function onClick(placeId) {
+        // Scroll to a certain element
+        //document.querySelector('.hello').scrollIntoView({
+        //behavior: 'smooth'
+        //});
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: 'smooth'
+        });
+        alert(placeId.latlng);
+
+      }
+    }, 10000);
+  //  }, false);
 
   </script>
   </body>
