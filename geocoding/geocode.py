@@ -135,25 +135,25 @@ for elem in tree.iter(tag="{http://www.tei-c.org/ns/1.0}w"):
             ###################### 
             
             if entry == "Bône":
-                entry == "Annaba"
+                entry = "Annaba"
                 
             if entry == "Lalla-Marnia":
-                entry == "Maghnia"            
+                entry = "Maghnia"            
             
             if entry == "Tunis":
-                entry == "Tunis City"            
+                entry = "Tunis City"            
             
             if entry == "Saïd":
-                entry == "Port Said"             
+                entry = "Port Said"             
             
             if entry == "Orotava":
-                entry == "Puerto Orotava" 
+                entry = "Puerto Orotava" 
             
             if entry == "Palmas":
-                entry == "Las Palmas"             
+                entry = "Las Palmas"             
             
             if entry == "Kreta":
-                entry == "Kreta Island"             
+                entry = "Kreta Island"             
             
             
             
