@@ -42,3 +42,12 @@ It was only executed on a part of [Das Mittelmeer. Handbuch für Reisende: Digit
 
 Other useful resources:
 * http://tei.oucs.ox.ac.uk/Talks/2015-02-warsaw/
+
+## Instructions for own use
+* download repository
+* install required libraries for Python mentioned above
+* in geocoding/geocode.py in the section 'Parsing the xml-file' input your xml file
+* execute geocoding/geocode.py
+* copy the resulting file into source-web
+* in index.html in the section 'CODE TO RUN CETEICEAN' change the source to your newly created source  
+* open index.html in your browser and see the result
