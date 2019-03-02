@@ -90,17 +90,18 @@
 
   // create custom icon
   var markerIcon = L.icon({
-      iconUrl: 'https://bellerophons-pegasus.github.io/xmlTEIontheMap/style/pin.png',
+      iconUrl: 'style/pin.png',
       iconSize: [22, 38]
       });
   // add markers from coordinateList, when document ready
-//  document.addEventListener("DOMContentLoaded", function(event) {
+  document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("listening");
     var arrayLength = coordinateList.length;
         for (var i = 0; i < arrayLength; i++) {
             console.log(coordinateList[i]);
             var marker = L.marker(coordinateList[i], {icon: markerIcon}).on('click', onClick);
             marker.addTo(mymap);
-//        }
+        }
 
     function onClick(placeId) {
       // Scroll to a certain element
