@@ -32,6 +32,7 @@
     <script src="scripts-web/cetei/CETEI.js"></script>
     <script>
       var coordinateList = [];
+      var skippedCoordinates = 0;
       var CETEIcean = new CETEI();
 
       // CODE TO HIDE A PAGE (https://github.com/raffazizzi/ceteicean-pagination/blob/master/index.html)
@@ -181,8 +182,11 @@
             var marker = L.marker(coordinateList[i], {icon: markerIcon});
             marker.addTo(mymap);
             marker.bindPopup("<b>Coordinates:</b><br>"+coordinateList[i]);
+          } else {
+            skippedCoordinates = skippedCoordinates+1;
           };
       };
+      console.log(skippedCoordinates);
 
     }, 10000);
 //    }, false);
