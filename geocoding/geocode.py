@@ -141,7 +141,7 @@ for elem in tree.iter(tag="{http://www.tei-c.org/ns/1.0}w"):
                 entry = "Maghnia"            
             
             if entry == "Tunis":
-                entry = "Tunis City"            
+                entry = "Tunis, TUN"            
             
             if entry == "Saïd":
                 entry = "Port Said"             
