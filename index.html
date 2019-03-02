@@ -78,7 +78,7 @@
 
     <script>
     // add base map with view centered on mediterranean sea
-    var mymap = L.map('mapBox').setView([34.5531, 18.0480], 5);
+    var mymap = L.map('mapBox').setView([34.5531, 18.0480], 4);
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -92,8 +92,24 @@
   document.addEventListener("DOMContentLoaded", function(event) {
     var arrayLength = coordinateList.length;
         for (var i = 0; i < arrayLength; i++) {
-            L.marker(coordinateList[i]).addTo(mymap);
+            console.log(coordinateList[i]);
+            var marker = L.marker(coordinateList[i]).on('click', onClick);
+            marker.addTo(mymap);
         }
+
+    function onClick(placeId) {
+      // Scroll to a certain element
+      //document.querySelector('.hello').scrollIntoView({
+      //behavior: 'smooth'
+      //});
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+      alert(placeId.latlng);
+
+    }
   });
 
   </script>

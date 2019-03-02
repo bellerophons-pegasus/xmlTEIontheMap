@@ -8,12 +8,12 @@
   display: inline-block;
   vertical-align: top;
   width: 50%;
-  position: relative;
+  position: fixed;
+  top: auto;
 }
 
 #mapBox {
   height: 600px;
   width: 96%;
   margin: auto;
-  position: absolute;
 }
